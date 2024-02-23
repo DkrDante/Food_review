@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Not yo mama's | DkrDante</title>
+    <link rel="stylesheet" href="style-sheet.css">
+    
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo">
+            <h2>Not yo MAMA's</h2>
+        </div>
+        <ul id="menuLinks">
+            <li><a href="#mainsec">Home</a></li>
+            <li><a href="#menusections">Menu</a></li>
+            <li><a href="#trendSection">Trends</a></li>
+            <li><a href="#testimonialSection">Reviews</a></li>
+            <li><a href="#blogsection">Blogs</a></li>
+        </ul>
+        <div class="menu-icon">
+            <i class="fa fa-bars" id="menuIcon" aria-hidden="true"></i>
+        </div>
+    </nav>
+
+
+
+    <div id="mainsec" class="main-content">
+        <div class="left">
+            <h1>Best from Not yo mama's </s></h1>
+            <p>"Experience culinary delight, one bite at a time."</p>
+            <a href="" class="exp">Explore More</a>
+        </div>
+        <div class="right">
+            <img src="images/Main.png" alt="">
+        </div>
+    </div>
+
+   
+
+
+    <section id="menusections">
+        <h2>Our Menu</h2>
+
+        <div class="menu-container">
+            <div class="menu-item">
+                <img src="images/Food.jpg" alt="">
+                <h4>Rooster Chicken Rice Bowl</h4>
+                <div class="exp">Add To Cart</div>
+            </div>
+            <div class="menu-item">
+                <img src="images/Food 3.jpg" alt="">
+                <h4>Pizza but fancy</h4>
+                <div class="exp">Add To Cart</div>
+            </div>
+            <div class="menu-item">
+                <img src="images/Food 4.jpg" alt="">
+                <h4>KFC aah shit</h4>
+                <div class="exp">Add To Cart</div>
+            </div>
+            <div class="menu-item">
+                <img src="images/Food 5.jpg" alt="">
+                <h4>Chiken nuggets</h4>
+                <div class="exp">Add To Cart</div>
+            </div>
+            <div class="menu-item">
+                <img src="images/Food 1.jpg" alt="">
+                <h4>Pizza</h4>
+                <div class="exp">Add To Cart</div>
+            </div>
+            <div class="menu-item">
+                <img src="images/Food 2.jpg" alt="">
+                <h4>Burger and fries</h4>
+                <div class="exp">Add To Cart</div>
+            </div>
+        </div>
+
+    </section>
+    <section id="trendSection">
+        <h2>Trending Food</h2>
+
+        <div class="trending-container">
+            <div class="trend-item">
+                <img src="images/Trend.jpg" alt="">
+            </div>
+            <div class="trend-item">
+                <img src="images/Trend 2.jpg" alt="">
+            </div>
+            <div class="trend-item">
+                <img src="images/Trend 3.jpg" alt="">
+            </div>
+        </div>
+
+    </section>
+
+    <section id="testimonialSection">
+        <h2>Customer Review's</h2>
+        <div class="testimonial-container">
+            <div class="testimonial">
+                <img src="images/aar.jpeg" alt="">
+                <p>The waiter there is soo cute, fallen in love ho gaya!! but i can't over my ex, var </p>
+            </div>
+            <div class="testimonial">
+                <img src="images/preks.jpeg" alt="">
+                <p>I broke up with my bf for this resturant but damn it's worth it!!!! 9/10</p>
+            </div>
+            <div class="testimonial">
+                <img src="images/atul.jpeg" alt="">
+                <p>WOW!!! food soo good makes you cum. 10/10 would recommend</p>
+            </div>
+        </div>
+    </section>
+    <section id="blogsection">
+
+        <h2>Read Food Blogs</h2>
+
+        <div class="blog-container">
+            <div class="blog">
+                <img src="images/Blog 3.jpg" alt="">
+                <h4>Latest Food Blog</h4>
+                <div class="btn">Read More</div>
+            </div>
+            <div class="blog">
+                <img src="images/Blog 2.jpg" alt="">
+                <h4>Latest Food Blog</h4>
+                <div class="btn">Read More</div>
+            </div>
+            <div class="blog">
+                <img src="images/Blog.jpg" alt="">
+                <h4>Latest Food Blog</h4>
+                <div class="btn">Read More</div>
+            </div>
+        </div>
+
+    </section>
+    <footer>
+        <div class="col col-1">
+            <h3>About Us</h3>
+            <p>All of my frends are single, thus so sad, but so is the fate of a vit student. esp 1st years. No can do. It's a curse</p>
+        </div>
+        <div class="col">
+            <h3>Our Food</h3>
+            <ul>
+                <li>Quantity</li>
+                <li>Affordable</li>
+                <li>Best Price</li>
+                <li>Low Cost</li>
+            </ul>
+        </div>
+        <div class="col">
+            <h3>Offers</h3>
+            <ul>
+                <li>20% Off</li>
+                <li>Free 1st meal</li>
+                <li>Vibrance special</li>
+                <li>Kunti who</li>
+            </ul>
+        </div>
+        <div class="col">
+            <h3>Contact Us</h3>
+            <ul>
+                <li>Linkdin</li>
+                <li>Facebook</li>
+                <li>Instagram</li>
+                <li>Twitter</li>
+            </ul>
+        </div>
+    </footer>
+    
+    <div class="copyright">
+        <i class="fa fa-copyright" aria-hidden="true"></i> copyright Not yo mama's 2024 - DkrDante  
+    </div>
+    <script>
+        let menuLinks = document.getElementById("menuLinks")
+        let menuIcon = document.getElementById("menuIcon")
+
+        menuLinks.style.maxHeight = "0px"
+
+        menuIcon.addEventListener("click", () => {
+            if(menuLinks.style.maxHeight === "0px")
+            {
+                menuLinks.style.maxHeight = "350px"
+            }
+            else{
+                menuLinks.style.maxHeight = "0px"
+            }
+        })
+
+    </script>
+
+</body>
+</html>
