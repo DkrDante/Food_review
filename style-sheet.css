@@ -20,8 +20,6 @@ li {
     list-style: none;
 }
 
-}
-
 nav {
     padding: 1 rem 4 rem;
     background: #000;
@@ -51,7 +49,7 @@ nav ul li a::after {
     width: 0;
     height: 2px;
     background: #f44336;
-    margin-right: auto;
+    margin-right:auto;
     transition: 0.4s;
 
 
@@ -312,7 +310,6 @@ footer {
     text-align: center;
     padding-bottom: 40px;
     font-size: 13px;
-    color: #ac9f9f604d;
 }
 
 
